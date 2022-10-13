@@ -1,0 +1,336 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Lect6
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target use_of_this
+
+
+#############################################
+# Order-only phony target for use_of_this
+
+build cmake_object_order_depends_target_use_of_this: phony || CMakeFiles/use_of_this.dir
+
+build CMakeFiles/use_of_this.dir/use_of_this/use_of_this.cpp.o: CXX_COMPILER__use_of_this_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/use_of_this/use_of_this.cpp || cmake_object_order_depends_target_use_of_this
+  DEP_FILE = CMakeFiles/use_of_this.dir/use_of_this/use_of_this.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/use_of_this.dir
+  OBJECT_FILE_DIR = CMakeFiles/use_of_this.dir/use_of_this
+
+build CMakeFiles/use_of_this.dir/use_of_this/X_fixed.cpp.o: CXX_COMPILER__use_of_this_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/use_of_this/X_fixed.cpp || cmake_object_order_depends_target_use_of_this
+  DEP_FILE = CMakeFiles/use_of_this.dir/use_of_this/X_fixed.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/use_of_this.dir
+  OBJECT_FILE_DIR = CMakeFiles/use_of_this.dir/use_of_this
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_of_this
+
+
+#############################################
+# Link the executable use_of_this
+
+build use_of_this: CXX_EXECUTABLE_LINKER__use_of_this_Debug CMakeFiles/use_of_this.dir/use_of_this/use_of_this.cpp.o CMakeFiles/use_of_this.dir/use_of_this/X_fixed.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/use_of_this.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = use_of_this
+  TARGET_PDB = use_of_this.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VectGetSet
+
+
+#############################################
+# Order-only phony target for VectGetSet
+
+build cmake_object_order_depends_target_VectGetSet: phony || CMakeFiles/VectGetSet.dir
+
+build CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVectorGetSet.cpp.o: CXX_COMPILER__VectGetSet_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorGetSet/MatlabVectorGetSet.cpp || cmake_object_order_depends_target_VectGetSet
+  DEP_FILE = CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVectorGetSet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectGetSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet
+
+build CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVector.cpp.o: CXX_COMPILER__VectGetSet_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorGetSet/MatlabVector.cpp || cmake_object_order_depends_target_VectGetSet
+  DEP_FILE = CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectGetSet.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VectGetSet
+
+
+#############################################
+# Link the executable VectGetSet
+
+build VectGetSet: CXX_EXECUTABLE_LINKER__VectGetSet_Debug CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVectorGetSet.cpp.o CMakeFiles/VectGetSet.dir/Matlab_vectors/MatlabVectorGetSet/MatlabVector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/VectGetSet.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VectGetSet
+  TARGET_PDB = VectGetSet.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VectOpInClass
+
+
+#############################################
+# Order-only phony target for VectOpInClass
+
+build cmake_object_order_depends_target_VectOpInClass: phony || CMakeFiles/VectOpInClass.dir
+
+build CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVectorOperatorInClass.cpp.o: CXX_COMPILER__VectOpInClass_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVectorOperatorInClass.cpp || cmake_object_order_depends_target_VectOpInClass
+  DEP_FILE = CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVectorOperatorInClass.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectOpInClass.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass
+
+build CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVector.cpp.o: CXX_COMPILER__VectOpInClass_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVector.cpp || cmake_object_order_depends_target_VectOpInClass
+  DEP_FILE = CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectOpInClass.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VectOpInClass
+
+
+#############################################
+# Link the executable VectOpInClass
+
+build VectOpInClass: CXX_EXECUTABLE_LINKER__VectOpInClass_Debug CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVectorOperatorInClass.cpp.o CMakeFiles/VectOpInClass.dir/Matlab_vectors/MatlabVectorOperatorInClass/MatlabVector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/VectOpInClass.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VectOpInClass
+  TARGET_PDB = VectOpInClass.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target VectRef
+
+
+#############################################
+# Order-only phony target for VectRef
+
+build cmake_object_order_depends_target_VectRef: phony || CMakeFiles/VectRef.dir
+
+build CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVectorReference.cpp.o: CXX_COMPILER__VectRef_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorReference/MatlabVectorReference.cpp || cmake_object_order_depends_target_VectRef
+  DEP_FILE = CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVectorReference.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectRef.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference
+
+build CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVector.cpp.o: CXX_COMPILER__VectRef_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Matlab_vectors/MatlabVectorReference/MatlabVector.cpp || cmake_object_order_depends_target_VectRef
+  DEP_FILE = CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/VectRef.dir
+  OBJECT_FILE_DIR = CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VectRef
+
+
+#############################################
+# Link the executable VectRef
+
+build VectRef: CXX_EXECUTABLE_LINKER__VectRef_Debug CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVectorReference.cpp.o CMakeFiles/VectRef.dir/Matlab_vectors/MatlabVectorReference/MatlabVector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/VectRef.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = VectRef
+  TARGET_PDB = VectRef.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Date
+
+
+#############################################
+# Order-only phony target for Date
+
+build cmake_object_order_depends_target_Date: phony || CMakeFiles/Date.dir
+
+build CMakeFiles/Date.dir/Date/testDates.cpp.o: CXX_COMPILER__Date_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Date/testDates.cpp || cmake_object_order_depends_target_Date
+  DEP_FILE = CMakeFiles/Date.dir/Date/testDates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Date.dir
+  OBJECT_FILE_DIR = CMakeFiles/Date.dir/Date
+
+build CMakeFiles/Date.dir/Date/Date.cpp.o: CXX_COMPILER__Date_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/Date/Date.cpp || cmake_object_order_depends_target_Date
+  DEP_FILE = CMakeFiles/Date.dir/Date/Date.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Date.dir
+  OBJECT_FILE_DIR = CMakeFiles/Date.dir/Date
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Date
+
+
+#############################################
+# Link the executable Date
+
+build Date: CXX_EXECUTABLE_LINKER__Date_Debug CMakeFiles/Date.dir/Date/testDates.cpp.o CMakeFiles/Date.dir/Date/Date.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Date.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Date
+  TARGET_PDB = Date.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target returnRef
+
+
+#############################################
+# Order-only phony target for returnRef
+
+build cmake_object_order_depends_target_returnRef: phony || CMakeFiles/returnRef.dir
+
+build CMakeFiles/returnRef.dir/returnRef/returnRef.cpp.o: CXX_COMPILER__returnRef_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/returnRef/returnRef.cpp || cmake_object_order_depends_target_returnRef
+  DEP_FILE = CMakeFiles/returnRef.dir/returnRef/returnRef.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/returnRef.dir
+  OBJECT_FILE_DIR = CMakeFiles/returnRef.dir/returnRef
+
+build CMakeFiles/returnRef.dir/returnRef/BaseOK.cpp.o: CXX_COMPILER__returnRef_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/returnRef/BaseOK.cpp || cmake_object_order_depends_target_returnRef
+  DEP_FILE = CMakeFiles/returnRef.dir/returnRef/BaseOK.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/returnRef.dir
+  OBJECT_FILE_DIR = CMakeFiles/returnRef.dir/returnRef
+
+build CMakeFiles/returnRef.dir/returnRef/BaseKO.cpp.o: CXX_COMPILER__returnRef_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect6/returnRef/BaseKO.cpp || cmake_object_order_depends_target_returnRef
+  DEP_FILE = CMakeFiles/returnRef.dir/returnRef/BaseKO.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/returnRef.dir
+  OBJECT_FILE_DIR = CMakeFiles/returnRef.dir/returnRef
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target returnRef
+
+
+#############################################
+# Link the executable returnRef
+
+build returnRef: CXX_EXECUTABLE_LINKER__returnRef_Debug CMakeFiles/returnRef.dir/returnRef/returnRef.cpp.o CMakeFiles/returnRef.dir/returnRef/BaseOK.cpp.o CMakeFiles/returnRef.dir/returnRef/BaseKO.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/returnRef.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = returnRef
+  TARGET_PDB = returnRef.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6" -B"/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug
+
+build all: phony use_of_this VectGetSet VectOpInClass VectRef Date returnRef
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

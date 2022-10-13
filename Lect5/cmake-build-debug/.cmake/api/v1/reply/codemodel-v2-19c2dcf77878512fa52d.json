@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lect5",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bin_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bin_search-Debug-086f1ebeb5d4d81f34c6.json",
+					"name" : "bin_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seq_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seq_search-Debug-6588b99a1fba5fb0d537.json",
+					"name" : "seq_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "str_it::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-str_it-Debug-44a1ba971f29de4cfda2.json",
+					"name" : "str_it",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct_ptr-Debug-78573dea9d8166dc3df9.json",
+					"name" : "struct_ptr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug",
+		"source" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

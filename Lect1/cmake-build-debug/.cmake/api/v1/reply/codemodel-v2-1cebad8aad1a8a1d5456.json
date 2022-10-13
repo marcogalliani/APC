@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lect1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci-Debug-bab94b3648f005caac37.json",
+					"name" : "fibonacci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_dan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_dan-Debug-08243d26697c7c44e50b.json",
+					"name" : "hello_dan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world-Debug-7c3a3acb9e5829934ece.json",
+					"name" : "hello_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifex-Debug-85ac7c3eec9fb9c2b31f.json",
+					"name" : "ifex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myfirstclass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myfirstclass-Debug-21569ea7cfe3afb13c74.json",
+					"name" : "myfirstclass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "namespace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-namespace-Debug-7aa3ff62dade21d4dbbd.json",
+					"name" : "namespace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opplus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opplus-Debug-b73437e54bfa424c0e98.json",
+					"name" : "opplus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "typesafe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-typesafe-Debug-85332d5c43087a20233f.json",
+					"name" : "typesafe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unsigned::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unsigned-Debug-a5414cd2b5ae1903be4d.json",
+					"name" : "unsigned",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vect-Debug-e6df703ccbf82535b27d.json",
+					"name" : "vect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrapping-Debug-4ec1d1c96c4f91694703.json",
+					"name" : "wrapping",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1/cmake-build-debug",
+		"source" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

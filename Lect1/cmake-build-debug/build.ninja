@@ -1,0 +1,461 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Lect1
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target fibonacci
+
+
+#############################################
+# Order-only phony target for fibonacci
+
+build cmake_object_order_depends_target_fibonacci: phony || CMakeFiles/fibonacci.dir
+
+build CMakeFiles/fibonacci.dir/fibonacci.c.o: C_COMPILER__fibonacci_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/fibonacci.c || cmake_object_order_depends_target_fibonacci
+  DEP_FILE = CMakeFiles/fibonacci.dir/fibonacci.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles/fibonacci.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fibonacci
+
+
+#############################################
+# Link the executable fibonacci
+
+build fibonacci: C_EXECUTABLE_LINKER__fibonacci_Debug CMakeFiles/fibonacci.dir/fibonacci.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/fibonacci.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = fibonacci
+  TARGET_PDB = fibonacci.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello_dan
+
+
+#############################################
+# Order-only phony target for hello_dan
+
+build cmake_object_order_depends_target_hello_dan: phony || CMakeFiles/hello_dan.dir
+
+build CMakeFiles/hello_dan.dir/hello_dan.cpp.o: CXX_COMPILER__hello_dan_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/hello_dan.cpp || cmake_object_order_depends_target_hello_dan
+  DEP_FILE = CMakeFiles/hello_dan.dir/hello_dan.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/hello_dan.dir
+  OBJECT_FILE_DIR = CMakeFiles/hello_dan.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello_dan
+
+
+#############################################
+# Link the executable hello_dan
+
+build hello_dan: CXX_EXECUTABLE_LINKER__hello_dan_Debug CMakeFiles/hello_dan.dir/hello_dan.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hello_dan.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hello_dan
+  TARGET_PDB = hello_dan.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Order-only phony target for hello_world
+
+build cmake_object_order_depends_target_hello_world: phony || CMakeFiles/hello_world.dir
+
+build CMakeFiles/hello_world.dir/hello_world.cpp.o: CXX_COMPILER__hello_world_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/hello_world.cpp || cmake_object_order_depends_target_hello_world
+  DEP_FILE = CMakeFiles/hello_world.dir/hello_world.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/hello_world.dir
+  OBJECT_FILE_DIR = CMakeFiles/hello_world.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Link the executable hello_world
+
+build hello_world: CXX_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello_world.dir/hello_world.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hello_world.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hello_world
+  TARGET_PDB = hello_world.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target myfirstclass
+
+
+#############################################
+# Order-only phony target for myfirstclass
+
+build cmake_object_order_depends_target_myfirstclass: phony || CMakeFiles/myfirstclass.dir
+
+build CMakeFiles/myfirstclass.dir/myfirstclass.cpp.o: CXX_COMPILER__myfirstclass_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/myfirstclass.cpp || cmake_object_order_depends_target_myfirstclass
+  DEP_FILE = CMakeFiles/myfirstclass.dir/myfirstclass.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/myfirstclass.dir
+  OBJECT_FILE_DIR = CMakeFiles/myfirstclass.dir
+
+build CMakeFiles/myfirstclass.dir/X.cpp.o: CXX_COMPILER__myfirstclass_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/X.cpp || cmake_object_order_depends_target_myfirstclass
+  DEP_FILE = CMakeFiles/myfirstclass.dir/X.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/myfirstclass.dir
+  OBJECT_FILE_DIR = CMakeFiles/myfirstclass.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target myfirstclass
+
+
+#############################################
+# Link the executable myfirstclass
+
+build myfirstclass: CXX_EXECUTABLE_LINKER__myfirstclass_Debug CMakeFiles/myfirstclass.dir/myfirstclass.cpp.o CMakeFiles/myfirstclass.dir/X.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/myfirstclass.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = myfirstclass
+  TARGET_PDB = myfirstclass.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target namespace
+
+
+#############################################
+# Order-only phony target for namespace
+
+build cmake_object_order_depends_target_namespace: phony || CMakeFiles/namespace.dir
+
+build CMakeFiles/namespace.dir/namespace.cpp.o: CXX_COMPILER__namespace_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/namespace.cpp || cmake_object_order_depends_target_namespace
+  DEP_FILE = CMakeFiles/namespace.dir/namespace.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/namespace.dir
+  OBJECT_FILE_DIR = CMakeFiles/namespace.dir
+
+build CMakeFiles/namespace.dir/MyFriendLibrary.cpp.o: CXX_COMPILER__namespace_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/MyFriendLibrary.cpp || cmake_object_order_depends_target_namespace
+  DEP_FILE = CMakeFiles/namespace.dir/MyFriendLibrary.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/namespace.dir
+  OBJECT_FILE_DIR = CMakeFiles/namespace.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target namespace
+
+
+#############################################
+# Link the executable namespace
+
+build namespace: CXX_EXECUTABLE_LINKER__namespace_Debug CMakeFiles/namespace.dir/namespace.cpp.o CMakeFiles/namespace.dir/MyFriendLibrary.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/namespace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = namespace
+  TARGET_PDB = namespace.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target opplus
+
+
+#############################################
+# Order-only phony target for opplus
+
+build cmake_object_order_depends_target_opplus: phony || CMakeFiles/opplus.dir
+
+build CMakeFiles/opplus.dir/opplus.cpp.o: CXX_COMPILER__opplus_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/opplus.cpp || cmake_object_order_depends_target_opplus
+  DEP_FILE = CMakeFiles/opplus.dir/opplus.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/opplus.dir
+  OBJECT_FILE_DIR = CMakeFiles/opplus.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target opplus
+
+
+#############################################
+# Link the executable opplus
+
+build opplus: CXX_EXECUTABLE_LINKER__opplus_Debug CMakeFiles/opplus.dir/opplus.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/opplus.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = opplus
+  TARGET_PDB = opplus.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target typesafe
+
+
+#############################################
+# Order-only phony target for typesafe
+
+build cmake_object_order_depends_target_typesafe: phony || CMakeFiles/typesafe.dir
+
+build CMakeFiles/typesafe.dir/typesafe.cpp.o: CXX_COMPILER__typesafe_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/typesafe.cpp || cmake_object_order_depends_target_typesafe
+  DEP_FILE = CMakeFiles/typesafe.dir/typesafe.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/typesafe.dir
+  OBJECT_FILE_DIR = CMakeFiles/typesafe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target typesafe
+
+
+#############################################
+# Link the executable typesafe
+
+build typesafe: CXX_EXECUTABLE_LINKER__typesafe_Debug CMakeFiles/typesafe.dir/typesafe.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/typesafe.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = typesafe
+  TARGET_PDB = typesafe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unsigned
+
+
+#############################################
+# Order-only phony target for unsigned
+
+build cmake_object_order_depends_target_unsigned: phony || CMakeFiles/unsigned.dir
+
+build CMakeFiles/unsigned.dir/unsigned.cpp.o: CXX_COMPILER__unsigned_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/unsigned.cpp || cmake_object_order_depends_target_unsigned
+  DEP_FILE = CMakeFiles/unsigned.dir/unsigned.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/unsigned.dir
+  OBJECT_FILE_DIR = CMakeFiles/unsigned.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unsigned
+
+
+#############################################
+# Link the executable unsigned
+
+build unsigned: CXX_EXECUTABLE_LINKER__unsigned_Debug CMakeFiles/unsigned.dir/unsigned.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/unsigned.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = unsigned
+  TARGET_PDB = unsigned.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vect
+
+
+#############################################
+# Order-only phony target for vect
+
+build cmake_object_order_depends_target_vect: phony || CMakeFiles/vect.dir
+
+build CMakeFiles/vect.dir/vect.cpp.o: CXX_COMPILER__vect_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/vect.cpp || cmake_object_order_depends_target_vect
+  DEP_FILE = CMakeFiles/vect.dir/vect.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/vect.dir
+  OBJECT_FILE_DIR = CMakeFiles/vect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vect
+
+
+#############################################
+# Link the executable vect
+
+build vect: CXX_EXECUTABLE_LINKER__vect_Debug CMakeFiles/vect.dir/vect.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/vect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vect
+  TARGET_PDB = vect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping
+
+
+#############################################
+# Order-only phony target for wrapping
+
+build cmake_object_order_depends_target_wrapping: phony || CMakeFiles/wrapping.dir
+
+build CMakeFiles/wrapping.dir/wrapping.cpp.o: CXX_COMPILER__wrapping_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/wrapping.cpp || cmake_object_order_depends_target_wrapping
+  DEP_FILE = CMakeFiles/wrapping.dir/wrapping.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/wrapping.dir
+  OBJECT_FILE_DIR = CMakeFiles/wrapping.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping
+
+
+#############################################
+# Link the executable wrapping
+
+build wrapping: CXX_EXECUTABLE_LINKER__wrapping_Debug CMakeFiles/wrapping.dir/wrapping.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/wrapping.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = wrapping
+  TARGET_PDB = wrapping.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ifex
+
+
+#############################################
+# Order-only phony target for ifex
+
+build cmake_object_order_depends_target_ifex: phony || CMakeFiles/ifex.dir
+
+build CMakeFiles/ifex.dir/ifex.cpp.o: CXX_COMPILER__ifex_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1$ Algorithms$ and$ Parallel$ Computng/CLionProjects/Lect1/ifex.cpp || cmake_object_order_depends_target_ifex
+  DEP_FILE = CMakeFiles/ifex.dir/ifex.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/ifex.dir
+  OBJECT_FILE_DIR = CMakeFiles/ifex.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ifex
+
+
+#############################################
+# Link the executable ifex
+
+build ifex: CXX_EXECUTABLE_LINKER__ifex_Debug CMakeFiles/ifex.dir/ifex.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/ifex.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ifex
+  TARGET_PDB = ifex.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1" -B"/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect1/cmake-build-debug
+
+build all: phony fibonacci hello_dan hello_world myfirstclass namespace opplus typesafe unsigned vect wrapping ifex
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

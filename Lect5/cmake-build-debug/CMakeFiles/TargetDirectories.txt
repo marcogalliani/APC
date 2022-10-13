@@ -1,0 +1,6 @@
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/bin_search.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/str_it.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/seq_search.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/struct_ptr.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
