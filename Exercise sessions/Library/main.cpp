@@ -4,7 +4,7 @@
 
 
 int main() {
-    Book b1(1, 2013, 1399, "S. B. Lippman", "C++ primer", true);
+    Book b1(1, 2014, 1399, "S. B. Lippman", "C++ primer", true);
 
     Book b2(2, 2013, 1361, "B. Stroustrup", "The C++ programming language", true);
 
@@ -21,22 +21,22 @@ int main() {
 
     lib.print();
     cout << "****************+"<< endl;
-    lib.rentBook("S. B. Lippman", "C++ primer");
+    cout << "Stato prestito: "<< lib.rentBook("S. B. Lippman", "C++ primer")<<endl;
     lib.print();
     cout << "****************+"<< endl;
 
-    lib.returnBook(1);
+    cout << "Stato restituzione: "<< lib.returnBook(1) << endl;
     lib.print();
     cout << "****************+"<< endl;
 
-    lib.returnBook(1);
+    cout << "Stato restituzione: "<< lib.returnBook(1)<<endl;
     lib.print();
 
     cout << "****************+"<< endl;
 
     cout << "Oldest book" << endl;
 
-    lib.print_oldest();
+    lib.printOldest();
     return 0;
 
 }

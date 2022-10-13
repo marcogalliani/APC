@@ -42,16 +42,16 @@ bool Book::equal_to(const string &aut, const string &t) const{
 }
 
 void Book::print() const{
-    cout << code << "\n"
-         << author << "\n"
-         << title << "\n"
-         << pages << "\n"
-         << year << "\n";
+    cout << "Code: " << code << "\n"
+         << "Author: " << author << "\n"
+         << "Title:" <<title << "\n"
+         << "Number of pages" << pages << "\n"
+         << "Year" << year << "\n";
 
     if (available)
-        cout << "Available";
+        cout << "Available\n";
     else
-        cout << "Not available";
+        cout << "Not available\n";
 
     cout << endl;
 }
