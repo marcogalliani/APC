@@ -12,6 +12,7 @@ int main(int argc, const char * argv[]) {
     
     // see this file for declaration,
     #include "TestValues.h"
+
     m1.print();
 
     double det = m1.determinant();

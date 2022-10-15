@@ -35,7 +35,7 @@ public:
     // write here the constructor that allow to call:
     // Matrix m1 = Matrix( {{1, 2}, {3,4}}  );
     void setElem(size_t i, size_t j, double v);
-    explicit Matrix( vector<vector<double>> mat_init );
+    Matrix( const vector<vector<double>>  & mat_init );
 
     void print();
 
