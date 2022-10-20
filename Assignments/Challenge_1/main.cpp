@@ -15,6 +15,10 @@ int main(int argc, const char * argv[]) {
 
     m1.print();
 
+    m1.complementary(1,1).print();
+
+    m1.print();
+
     double det = m1.determinant();
     std::cout << det << std::endl;
 

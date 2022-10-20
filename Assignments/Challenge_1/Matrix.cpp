@@ -71,7 +71,10 @@ Matrix Matrix::complementary(int i, int j) const{\
         if(k!=i){
             for (int l = 0; l < mat[0].size(); ++l) {
                 if (l!=j) {
-                    comp.setElem(m, n, mat[k][l]);
+                    //comp.setElem(m, n, mat[k][l]);
+
+                    //QUESTION: Can an object and his methods directly access a private field of another object of the same class? It seems so
+                    comp.mat[m][n]=mat[k][l];
                     n++;
                 }
             }

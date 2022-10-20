@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lect10",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookSalesDynamicBinding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookSalesDynamicBinding-Debug-c12db22f7eaf736b1ac2.json",
+					"name" : "BookSalesDynamicBinding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sneaky::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sneaky-Debug-16af504f621e2c11d17e.json",
+					"name" : "Sneaky",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug",
+		"source" : "/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

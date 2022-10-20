@@ -1,0 +1,194 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Lect10
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Sneaky
+
+
+#############################################
+# Order-only phony target for Sneaky
+
+build cmake_object_order_depends_target_Sneaky: phony || CMakeFiles/Sneaky.dir
+
+build CMakeFiles/Sneaky.dir/Sneaky/sneaky_main.cpp.o: CXX_COMPILER__Sneaky_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/Sneaky/sneaky_main.cpp || cmake_object_order_depends_target_Sneaky
+  DEP_FILE = CMakeFiles/Sneaky.dir/Sneaky/sneaky_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Sneaky.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sneaky.dir/Sneaky
+
+build CMakeFiles/Sneaky.dir/Sneaky/Base.cpp.o: CXX_COMPILER__Sneaky_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/Sneaky/Base.cpp || cmake_object_order_depends_target_Sneaky
+  DEP_FILE = CMakeFiles/Sneaky.dir/Sneaky/Base.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Sneaky.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sneaky.dir/Sneaky
+
+build CMakeFiles/Sneaky.dir/Sneaky/Sneaky.cpp.o: CXX_COMPILER__Sneaky_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/Sneaky/Sneaky.cpp || cmake_object_order_depends_target_Sneaky
+  DEP_FILE = CMakeFiles/Sneaky.dir/Sneaky/Sneaky.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Sneaky.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sneaky.dir/Sneaky
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sneaky
+
+
+#############################################
+# Link the executable Sneaky
+
+build Sneaky: CXX_EXECUTABLE_LINKER__Sneaky_Debug CMakeFiles/Sneaky.dir/Sneaky/sneaky_main.cpp.o CMakeFiles/Sneaky.dir/Sneaky/Base.cpp.o CMakeFiles/Sneaky.dir/Sneaky/Sneaky.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Sneaky.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Sneaky
+  TARGET_PDB = Sneaky.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BookSalesDynamicBinding
+
+
+#############################################
+# Order-only phony target for BookSalesDynamicBinding
+
+build cmake_object_order_depends_target_BookSalesDynamicBinding: phony || CMakeFiles/BookSalesDynamicBinding.dir
+
+build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Inheritance2.cpp.o: CXX_COMPILER__BookSalesDynamicBinding_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/BookSalesDynamicBinding/Inheritance2.cpp || cmake_object_order_depends_target_BookSalesDynamicBinding
+  DEP_FILE = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Inheritance2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding
+
+build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Quote.cpp.o: CXX_COMPILER__BookSalesDynamicBinding_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/BookSalesDynamicBinding/Quote.cpp || cmake_object_order_depends_target_BookSalesDynamicBinding
+  DEP_FILE = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Quote.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding
+
+build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.cpp.o: CXX_COMPILER__BookSalesDynamicBinding_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/BookSalesDynamicBinding/Bulk_quote.cpp || cmake_object_order_depends_target_BookSalesDynamicBinding
+  DEP_FILE = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BookSalesDynamicBinding
+
+
+#############################################
+# Link the executable BookSalesDynamicBinding
+
+build BookSalesDynamicBinding: CXX_EXECUTABLE_LINKER__BookSalesDynamicBinding_Debug CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Inheritance2.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Quote.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = BookSalesDynamicBinding
+  TARGET_PDB = BookSalesDynamicBinding.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10 -B/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/cmake-build-debug
+
+build all: phony Sneaky BookSalesDynamicBinding
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
