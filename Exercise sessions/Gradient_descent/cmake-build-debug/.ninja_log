@@ -6,3 +6,7 @@
 3	526	1666118971461449932	CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o	9b568784a58dd231
 3	527	1666118971464507858	CMakeFiles/Gradient_descent.dir/Function.cpp.o	f6ce54cf99c8d57d
 527	571	1666118971511242868	Gradient_descent	9ba4eaf898053fcb
+0	523	1666263159004496928	CMakeFiles/Gradient_descent.dir/main.cpp.o	22c80dda93702dab
+2	524	1666263159004592803	CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o	9b568784a58dd231
+1	525	1666263159007846546	CMakeFiles/Gradient_descent.dir/Function.cpp.o	f6ce54cf99c8d57d
+525	576	1666263159060390938	Gradient_descent	9ba4eaf898053fcb

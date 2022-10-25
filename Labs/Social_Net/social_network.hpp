@@ -63,7 +63,7 @@ public:
                      const std::string &second_name,
                      const std::string &second_surname);
 
-  void print();
+  void print(); //debug
 };
 }
 

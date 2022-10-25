@@ -21,20 +21,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37359a72-0147-47d9-ad15-bc2450f770d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Assignments/Final commits/C1/.idea/C1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionMin.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionMin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/TestValues.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/TestValues.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/CMakeFiles/Challenge_1.dir/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/CMakeFiles/Challenge_1.dir/Matrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/CMakeFiles/Challenge_1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/CMakeFiles/Challenge_1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/Challenge_1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/Challenge_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Challenge_1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Challenge_1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Final commits/C1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Gradient_descent" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Gradient_descent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises_attempts/Date_class/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/CMakeFiles/social_network_initial.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/CMakeFiles/social_network_initial.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/CMakeFiles/social_network_initial.dir/social_network.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/CMakeFiles/social_network_initial.dir/social_network.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/social_network_initial" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/cmake-build-debug/social_network_initial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/social_network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/social_network.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Social_Net/social_network.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Social_Net/social_network.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/BookSalesDynamicBinding/Inheritance2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/BookSalesDynamicBinding/Inheritance2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a36b648c24da959f9e02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-20T09-51-17-0856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/.cmake/api/v1/reply/target-BookSalesDynamicBinding-Debug-c12db22f7eaf736b1ac2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lect10/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +106,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Gradient_descent" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Gradient_descent" TARGET_NAME="Gradient_descent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Gradient_descent" RUN_TARGET_NAME="Gradient_descent">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -100,6 +123,7 @@
       <workItem from="1666076455101" duration="3433000" />
       <workItem from="1666081129066" duration="747000" />
       <workItem from="1666115965001" duration="3150000" />
+      <workItem from="1666263093443" duration="1460000" />
     </task>
     <servers />
   </component>

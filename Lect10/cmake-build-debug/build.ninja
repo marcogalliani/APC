@@ -107,6 +107,12 @@ build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.
   OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
   OBJECT_FILE_DIR = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding
 
+build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Unfair_quote.cpp.o: CXX_COMPILER__BookSalesDynamicBinding_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect10/BookSalesDynamicBinding/Unfair_quote.cpp || cmake_object_order_depends_target_BookSalesDynamicBinding
+  DEP_FILE = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Unfair_quote.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BookSalesDynamicBinding
@@ -115,7 +121,7 @@ build CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.
 #############################################
 # Link the executable BookSalesDynamicBinding
 
-build BookSalesDynamicBinding: CXX_EXECUTABLE_LINKER__BookSalesDynamicBinding_Debug CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Inheritance2.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Quote.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.cpp.o
+build BookSalesDynamicBinding: CXX_EXECUTABLE_LINKER__BookSalesDynamicBinding_Debug CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Inheritance2.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Quote.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Bulk_quote.cpp.o CMakeFiles/BookSalesDynamicBinding.dir/BookSalesDynamicBinding/Unfair_quote.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/BookSalesDynamicBinding.dir
   POST_BUILD = :

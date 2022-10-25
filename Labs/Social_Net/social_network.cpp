@@ -45,17 +45,7 @@ const std::vector<User> SocialNetwork::CGetUsers() const {
 const std::vector<User> SocialNetwork::CGetFriends(const User &user) const {
 
   /* YOUR CODE GOES HERE */
-  size_t i= CUserIndex(user.CGetName(),user.CGetSurname());
-
-  std::vector<User> f;
-
-  if (i!=friends.size()) {
-
-      for (size_t j = 0; j < friends[i].size(); ++j) {
-          f.push_back(users[friends[i][j]]);
-      }
-  }
-  return f;
+  return CGetFriends(user.CGetName(),user.CGetSurname());
 }
 
 const std::vector<User> SocialNetwork::CGetFriends(const std::string &name,
@@ -63,10 +53,14 @@ const std::vector<User> SocialNetwork::CGetFriends(const std::string &name,
   std::vector<User> ret{};
 
   /* YOUR CODE GOES HERE */
+  size_t i= CUserIndex(name,surname);
   User u=User(name,surname);
 
-  return CGetFriends(u);
-
+  if (i!=friends.size()) {
+      for (size_t j : friends[i])
+          ret.push_back(users[j]);
+  }
+  return ret;
 }
 
 void SocialNetwork::AddFriendship(const std::string &first_name,
@@ -82,22 +76,22 @@ void SocialNetwork::AddFriendship(const std::string &first_name,
       return;
   if (i == users.size() || j == users.size())
       return;
-  if (User(first_name,first_surname)) //using std::find()
-
+  if (std::find(friends[i].begin(),friends[i].end(),j) != friends[i].end())
+      return;
 
   friends[i].push_back(j);
   friends[j].push_back(i);
-
 }
 
+// debug: prints friends matrix
 void SocialNetwork::print() {
 
-    for (int i = 0; i < friends.size(); ++i) {
-        for (int j = 0; j < friends[i].size(); ++j) {
-            std::cout << friends[i][j] << " ";
+        for (auto f:friends) {
+            for(auto index:f){
+                std::cout << index << " ";
+            }
+            std::cout << "\n";
         }
-        std::cout << "\n";
-    }
-
 }
+
 }

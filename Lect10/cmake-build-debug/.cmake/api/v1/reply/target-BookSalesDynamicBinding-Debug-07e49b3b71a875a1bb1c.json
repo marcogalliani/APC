@@ -54,7 +54,8 @@
 			[
 				0,
 				1,
-				3
+				3,
+				6
 			]
 		}
 	],
@@ -89,7 +90,8 @@
 			[
 				0,
 				1,
-				3
+				3,
+				6
 			]
 		},
 		{
@@ -97,7 +99,9 @@
 			"sourceIndexes" : 
 			[
 				2,
-				4
+				4,
+				5,
+				7
 			]
 		}
 	],
@@ -129,6 +133,22 @@
 		{
 			"backtrace" : 1,
 			"path" : "BookSalesDynamicBinding/Bulk_quote.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "BookSalesDynamicBinding/Disc_quote.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BookSalesDynamicBinding/Unfair_quote.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "BookSalesDynamicBinding/Unfair_quote.h",
 			"sourceGroupIndex" : 1
 		}
 	],

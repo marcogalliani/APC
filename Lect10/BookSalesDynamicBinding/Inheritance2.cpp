@@ -8,6 +8,7 @@
 #include <iostream>
 #include "Quote.h"
 #include "Bulk_quote.h"
+#include "Unfair_quote.h"
 
 using namespace std;
 

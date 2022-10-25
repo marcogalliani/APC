@@ -48,7 +48,7 @@ int main() {
     }
   }
 
-  social_network.print();
+  //social_network.print();
 
   return 0;
 }
