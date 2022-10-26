@@ -1,0 +1,13 @@
+# ninja log v5
+0	53	1666786530122212458	build.ninja	2a4d35efb8306894
+0	481	1666766986493727380	CMakeFiles/RootFinderAllInOne.dir/bn_allinone.cpp.o	e0e70b21faadd72a
+1	589	1666770744386525593	CMakeFiles/ClassRestructured.dir/Function.cpp.o	1bd5379b80559899
+482	513	1666766986527894721	RootFinderAllInOne	1547737e17d582e2
+2	470	1666776404606847373	CMakeFiles/ClassRestructured.dir/Newton.cpp.o	d4ea169d9613ee30
+470	510	1666776404649646549	ClassRestructured	2b6a523e998ffbff
+2	470	1666776404608486991	CMakeFiles/ClassRestructured.dir/restructured_main.cpp.o	3a8743283b7c4bb6
+2	619	1666770744415053002	CMakeFiles/ClassRestructured.dir/RootFinder.cpp.o	4d580bba6092cae4
+2	242	1666770840415578525	CMakeFiles/ClassRestructured.dir/Bisection.cpp.o	f600da5d3d490269
+2	446	1666787115869943737	CMakeFiles/ClassRestructured.dir/Robust.cpp.o	aebf3f6af1b585
+1	269	1666787298600542047	CMakeFiles/ClassRestructured.dir/restructured_main.cpp.o	3a8743283b7c4bb6
+270	315	1666787298648245867	ClassRestructured	6597ade9fb47e7c5

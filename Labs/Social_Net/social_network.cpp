@@ -4,6 +4,7 @@
 
 ///STD include
 #include <iostream>
+#include <string>
 
 namespace SocialNetworkNS {
 size_t SocialNetwork::CUserIndex(const std::string &name,
@@ -93,5 +94,6 @@ void SocialNetwork::print() {
             std::cout << "\n";
         }
 }
-
 }
+
+
