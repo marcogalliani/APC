@@ -21,19 +21,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37359a72-0147-47d9-ad15-bc2450f770d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Bisection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Bisection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Function.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Newton.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Newton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Robust.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/Robust.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/RootFinder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/RootFinder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Root_finder/restructured_main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monomials.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monomials.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Function.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function.h" beforeDir="false" afterPath="$PROJECT_DIR$/Function.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionMin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionMin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionMin.h" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionMin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-996776c0a56a2d1e3e7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-18T17-59-43-0221.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Gradient_descent-Debug-d5bb840fb9fd0557cbc3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/Function.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/Function.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gradient_descent.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Gradient_descent" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Gradient_descent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/Bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/CMakeFiles/ClassRestructured.dir/Bisection.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/CMakeFiles/ClassRestructured.dir/Bisection.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/ClassRestructured" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/ClassRestructured" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Root_finder/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +92,11 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gradient_descent" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Gradient_descent" TARGET_NAME="Gradient_descent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Gradient_descent" RUN_TARGET_NAME="Gradient_descent">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -96,6 +116,7 @@
       <workItem from="1666115965001" duration="3150000" />
       <workItem from="1666263093443" duration="1460000" />
       <workItem from="1666767555450" duration="606000" />
+      <workItem from="1666806337405" duration="8621000" />
     </task>
     <servers />
   </component>

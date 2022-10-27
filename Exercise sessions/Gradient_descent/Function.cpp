@@ -7,31 +7,30 @@
 #include <iostream>
 #include <vector>
 
-double Function::eval(double x) const{
+void Function::addMonomial (const Monomials & m){
+    polynomial.push_back(m);
+}
+
+
+double Function::eval(const Point & p) const{
     double val =0.0;
-    for (size_t i = 0; i < coefficients.size() ; ++i) {
-        val+=coefficients[i]*pow(x,i);
+    for (auto m:polynomial) {
+        val+=m.eval(p);
     }
     return val;
 }
 
-Function Function::derivative() const{
-    std::vector<double> dcoeffs;
+Function Function::derivative(int direction) const{
+    Function df;
 
-    for (size_t i = 0; i <coefficients.size() ; ++i)
-        dcoeffs.push_back((i+1)*coefficients[i+1]);
+    for (auto m:polynomial)
+        df.polynomial.push_back(m.derivative(direction));
 
-    return Function(dcoeffs);
+    return df;
 }
 
-void Function::print() const
-{
-    for (size_t i = 0; i < coefficients.size(); i++)
-        std::cout << coefficients[i] << "  ";
-    std::cout << std::endl;
-}
 
-Function::Function(const vector<double> &f_init) :coefficients(f_init){}
+
 
 
 

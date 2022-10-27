@@ -8,7 +8,7 @@ real Bisection::find_root(int &nit){
 
 
     real u = f.eval(inf_limit);  // Evaluate f on boundary a
-    real l = inf_limit - sup_limit; // Interval length
+    real l = sup_limit - inf_limit; // Interval length
     real r;         // Residual
     real c = inf_limit + l;   // Middle point
 

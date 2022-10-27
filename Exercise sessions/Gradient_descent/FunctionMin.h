@@ -8,24 +8,37 @@
 #include "Function.h"
 
 class FunctionMin {
-public:
-    FunctionMin(const Function &f, double supLimit, double infLimit, double tolerance, double step, double max_it);
 
 private:
+    static constexpr bool debug = true;
+
     Function f;
-    double sup_limit;
-    double inf_limit;
+    std::vector<double> sup_limits;
+    std::vector<double> inf_limits;
 
     double tolerance;
     double step;
     double max_iterations;
 
-    double solve(double x_init) const;
+    Point compute_gradient(const Point & p) const;
+
+    Point solve(const Point & p) const;
+
+    /*void next_inf_limit (std::vector<double> & cur_inf_limit,
+                         const std::vector<double> & internal_steps) const;*/
 
 public:
-    double solve() const;
-    double solve_multistart(unsigned n_trials) const;
-    double solve_domain_decomposition(unsigned n_intervals, unsigned n_trials) const;
+    FunctionMin(const Function &f, const vector<double> &supLimit, const vector<double> &infLimit, double tolerance,
+                double step, double maxIterations);
+
+
+    Point solve(void) const;
+    //Point solve_multistart(unsigned n_trials) const;
+    //Point solve_domain_decomposition(unsigned n_intervals, unsigned n_trials) const;
+
+    void debug_info (const std::string& s) const;
+
+    void debug_info (const std::string& s1, double val) const;
 };
 
 

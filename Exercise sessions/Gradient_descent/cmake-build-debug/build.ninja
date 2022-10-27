@@ -64,6 +64,18 @@ build CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o: CXX_COMPILER__Gradient_
   OBJECT_DIR = CMakeFiles/Gradient_descent.dir
   OBJECT_FILE_DIR = CMakeFiles/Gradient_descent.dir
 
+build CMakeFiles/Gradient_descent.dir/Monomials.cpp.o: CXX_COMPILER__Gradient_descent_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Exercise$ sessions/Gradient_descent/Monomials.cpp || cmake_object_order_depends_target_Gradient_descent
+  DEP_FILE = CMakeFiles/Gradient_descent.dir/Monomials.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Gradient_descent.dir
+  OBJECT_FILE_DIR = CMakeFiles/Gradient_descent.dir
+
+build CMakeFiles/Gradient_descent.dir/Point.cpp.o: CXX_COMPILER__Gradient_descent_Debug /Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Exercise$ sessions/Gradient_descent/Point.cpp || cmake_object_order_depends_target_Gradient_descent
+  DEP_FILE = CMakeFiles/Gradient_descent.dir/Point.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Gradient_descent.dir
+  OBJECT_FILE_DIR = CMakeFiles/Gradient_descent.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Gradient_descent
@@ -72,7 +84,7 @@ build CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o: CXX_COMPILER__Gradient_
 #############################################
 # Link the executable Gradient_descent
 
-build Gradient_descent: CXX_EXECUTABLE_LINKER__Gradient_descent_Debug CMakeFiles/Gradient_descent.dir/main.cpp.o CMakeFiles/Gradient_descent.dir/Function.cpp.o CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o
+build Gradient_descent: CXX_EXECUTABLE_LINKER__Gradient_descent_Debug CMakeFiles/Gradient_descent.dir/main.cpp.o CMakeFiles/Gradient_descent.dir/Function.cpp.o CMakeFiles/Gradient_descent.dir/FunctionMin.cpp.o CMakeFiles/Gradient_descent.dir/Monomials.cpp.o CMakeFiles/Gradient_descent.dir/Point.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Gradient_descent.dir
   POST_BUILD = :

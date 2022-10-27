@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <vector>
+#include "Monomials.h"
+#include "Point.h"
 
 using std::vector;
 
@@ -14,13 +16,14 @@ using std::vector;
 class Function {
 
 private:
-    vector<double> coefficients;
+    vector<Monomials> polynomial;
 
 public:
-    Function( const vector<double> & f_init);
-    double eval(double x) const;
-    Function derivative() const;
-    void print() const;
+    double eval(const Point & p) const;
+
+    Function derivative(int direction) const;
+
+    void addMonomial (const Monomials & m);
 };
 
 
