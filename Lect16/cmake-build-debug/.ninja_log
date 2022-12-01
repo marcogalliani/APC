@@ -1,0 +1,5 @@
+# ninja log v5
+1	50	1669291030953422085	build.ninja	8bfd7af5835b503a
+0	458	1669291031415097241	CMakeFiles/SalesDataSet_main.dir/SalesDataSet/Sales_data.cpp.o	3440f6f7a2995d24
+0	460	1669291031418630855	CMakeFiles/SalesDataSet_main.dir/SalesDataSet/Sales_data_main.cpp.o	abd0299bb6e13eeb
+460	498	1669291031457805681	SalesDataSet_main	f534552fb335f5e5

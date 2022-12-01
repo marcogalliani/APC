@@ -1,0 +1,5 @@
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect12/cmake-build-debug/CMakeFiles/BoxesV1.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect12/cmake-build-debug/CMakeFiles/BoxesV2.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect12/cmake-build-debug/CMakeFiles/CopyControl.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect12/cmake-build-debug/CMakeFiles/rebuild_cache.dir

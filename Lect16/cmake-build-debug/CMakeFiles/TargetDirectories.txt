@@ -1,0 +1,3 @@
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect16/cmake-build-debug/CMakeFiles/SalesDataSet_main.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect16/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1Algorithms_and_Parallel_Computing/CLionProjects/Lect16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
