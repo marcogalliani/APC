@@ -3,4 +3,7 @@ project(StudentsFile)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(StudentsFile main.cpp Exam.cpp Exam.h StudentsData.cpp StudentsData.h FileManager.cpp)
+add_executable(StudentsFile main.cpp
+        Exam.cpp Exam.h
+        StudentsData.cpp StudentsData.h
+        FileManager.h FileManager.cpp)

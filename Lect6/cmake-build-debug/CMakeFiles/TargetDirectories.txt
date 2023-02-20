@@ -1,8 +1,0 @@
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/use_of_this.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/VectGetSet.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/VectOpInClass.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/VectRef.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/Date.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/returnRef.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/marcogalliani/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Corsi/4.1 Algorithms and Parallel Computng/CLionProjects/Lect6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
